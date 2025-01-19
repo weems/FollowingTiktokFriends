@@ -43,6 +43,8 @@ Add your credentials to the `.env` file:
 TWITTER_BEARER_TOKEN=your_twitter_bearer_token
 INSTAGRAM_ACCESS_TOKEN=your_instagram_access_token
 BLUESKY_ACCESS_TOKEN=your_bluesky_access_token
+mastodon_access_token = os.getenv('MASTODON_ACCESS_TOKEN')
+mastodon_instance = os.getenv('MASTODON_INSTANCE')
 ```
 
 ### 4. Update the Script
@@ -59,6 +61,8 @@ load_dotenv()
 twitter_bearer_token = os.getenv('TWITTER_BEARER_TOKEN')
 instagram_access_token = os.getenv('INSTAGRAM_ACCESS_TOKEN')
 bluesky_access_token = os.getenv('BLUESKY_ACCESS_TOKEN')
+mastodon_access_token = os.getenv('MASTODON_ACCESS_TOKEN')
+mastodon_instance = os.getenv('MASTODON_INSTANCE')
 
 # Your script logic here...
 ```
